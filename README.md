@@ -7,6 +7,7 @@ JavaScript this Code-Along
 2. Explain how to use `call()`
 3. Explain how to use `apply()`
 4. Explain the difference between `call()` and `apply()`
+5. Explain how to use `bind()`
 
 ## Introduction
 
@@ -22,7 +23,10 @@ This will lead to a bunch of contrived examples, but I think it's really importa
 
 The main point is that students need a ton of practice with `call()` and `apply()`
 
+`bind()` is a tricky sibling of `call()` and `apply()` in that it returns a new function. This might trip students up, so it's worth giving them a bit of practice. It's worth introducing in the context of, e.g., `setTimeout()` and `setInterval()` (which students should know about by this point).
+
 ## Resources
 
 - [MDN: Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [MDN: Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+- [MDN: Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
