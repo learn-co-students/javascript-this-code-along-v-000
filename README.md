@@ -378,7 +378,7 @@ serve.apply(pbj, ["Terry", "Tom", "Tabitha"]);
 ```
 
 The first one should give us the message *"Grilled Cheese. Order up!"*.
-The second should yield *"Peanut Butter & Jelly for Terry, Tomand Tabitha. Enjoy!"*
+The second should yield *"Peanut Butter & Jelly for Terry, Tom and Tabitha. Enjoy!"*
 
 In this case, we used `apply` for the second one, but that could just as
 easily been `call`. Because the function is not set up to take any
@@ -454,6 +454,7 @@ this works because we use `call` to explicitly set `this` on the
 attached to an instance of a `Sandwich`.
 
 **//Flat-fact:** You don't win friends with salad.
+
 ![you don't win friends with salad](http://i.giphy.com/xT0GqFjfmAUuE4wRqw.gif)
 
 ### bind()
