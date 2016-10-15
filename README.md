@@ -109,7 +109,7 @@ Oops! Not quite what we were looking for, but close. The function worked, but we
 
 Here, `this` refers to the instance of `Sandwich` that we constructed. We didn't add the `name` property to our constructor function, so `this` blt doesn't have a `name`, so the `serve` function doesn't have anything to fill in there.
 
-There's a couple of ways we could solve this problem. We could add a `name` to the constructor function, but then we'd have to change the code for every sandwich we've created to add that new argument. In a bigger system, that might introduce bugs in code we don't know about.
+There are a couple of ways we could solve this problem. We could add a `name` to the constructor function, but then we'd have to change the code for every sandwich we've created to add that new argument. In a bigger system, that might introduce bugs in code we don't know about.
 
 Instead, we can take advantage of JavaScript and add a `name` property to just our `blt` and try calling the function again.
 
@@ -209,7 +209,7 @@ var pbj = new Sandwich("wheat", ["peanut butter", "raspberry jam"],
 "Peanut Butter & Jelly");
 ```
 
-Now, when we invoke `serve`, not only do we need to explicitly set `this`, but we need to pass in a value for `customer` as well.
+Now, when we invoke `serve`, not only do we need to explicitly set `this`, but we also need to pass in a value for `customer` as well.
 
 Using `call`, we simply pass the object for `this` as the first argument, and then any function arguments in order after that. So to use `serve` with `call`, let's do this:
 
@@ -461,3 +461,5 @@ We learned how to *borrow* functions from other objects using `call`, `apply`, a
 - [MDN: Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
 - [MDN: Function.prototype.apply()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 - [MDN: Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-this-code-along'>Javascript this Codealong</a> on Learn.co and start learning to code for free.</p>
