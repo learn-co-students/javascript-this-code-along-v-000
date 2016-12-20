@@ -192,7 +192,7 @@ The first argument for `call` is always the object that you wish to assign to `t
 
 For a simple, no argument function like `serve()`, we can use `apply()` interchangeably with `call()`. The first argument for `apply()` is also always the object that we want to assign to `this` in the function, so `serve.apply(gc)` will work exactly the same as `serve.call(gc)`. Try it out!
 
-So both `call` and `apply` gives us a way to invoke a function and explicitly set `this` with the first argument. What is the difference?
+So both `call` and `apply` give us a way to invoke a function and explicitly set `this` with the first argument. What is the difference?
 
 #### Passing Arguments With call() and apply()
 
