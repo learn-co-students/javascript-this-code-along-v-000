@@ -288,7 +288,7 @@ serve.apply(pbj, ["Terry", "Tom", "Tabitha"]);
 The first one should give us the message *"Grilled Cheese. Order up!"*.
 The second should yield *"Peanut Butter & Jelly for Terry, Tom and Tabitha. Enjoy!"*
 
-In this case, we used `apply` for the second one, but that could just as easily been `call`. Because the function is not set up to take any specific arguments, we can just use an array of values as the second argument to `apply` or `call` and it will be picked up by the `arguments` object within the function body.
+In this case, we used `apply` for the second one, but that could just as easily have been `call`. Because the function is not set up to take any specific arguments, we can just use an array of values as the second argument to `apply` or `call` and it will be picked up by the `arguments` object within the function body.
 
 #### Borrowing Functions With call() and apply()
 
