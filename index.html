@@ -6,6 +6,18 @@
   <body>
     <main id="main">
     </main>
+<!--     <img class="pix" src="http://i.giphy.com/S1phUc5mmaZqM.gif">
+<img class="pix" src="http://i.giphy.com/eGe59ekUJEll6.gif">
+<img class="pix" src="http://i.giphy.com/l41lNT5u8hCI92nQc.gif"> -->
+<script type="text/javascript" charset="utf-8">
+    var els = document.getElementsByClassName("pix");
+    function handleClick(e) {
+      console.log(this);
+    }
+    for(var i=0 ; i < els.length ; i++){
+      els[i].addEventListener("click", handleClick, false);
+    }
+</script>
     <script src="index.js"></script>
   </body>
 </html>
