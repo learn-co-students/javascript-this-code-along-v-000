@@ -1,6 +1,6 @@
 # JavaScript this Code-Along
 
-## Overview 
+## Overview
 
 In this lesson we'll be exploring the ways we can manipulate `this` to use functions in new ways.
 
@@ -9,7 +9,7 @@ In this lesson we'll be exploring the ways we can manipulate `this` to use funct
 1. Use `this` with functions in JavaScript
 2. Use `call()` and `apply()` to invoke a function with an explicit value for `this`
 4. Explain the difference between `call()` and `apply()` in the way you pass arguments to the target function.
-5. Use `bind()` to execute functions asynchronously 
+5. Use `bind()` to execute functions asynchronously
 
 ## Introduction
 
@@ -20,7 +20,7 @@ And you know that you can reference `this` inside of a function to find out what
 But did you know that functions are also objects? And that we can borrow functions from one object and use them on another object? Or hold on to a function with specific arguments and call it later?
 
 If you didn't understand all that, that's okay. In this lesson we'll be exploring the ways we can manipulate `this` to use functions in new ways.
-
+d
 Don't forget to code along in your console!
 
 ## Plain Ol' JavaScript Objects (POJOs)
