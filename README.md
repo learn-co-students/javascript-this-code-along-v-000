@@ -1,6 +1,6 @@
 # JavaScript this Code-Along
 
-## Overview 
+### Overview 
 
 In this lesson we'll be exploring the ways we can manipulate `this` to use functions in new ways.
 
