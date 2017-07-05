@@ -48,3 +48,23 @@ function serve() {
         console.log(this.name + ". Order up!");
     }
 }
+
+// BORROWING FUNCTIONS
+
+function Sandwich(bread, ingredients, name) {
+  this.bread = bread;
+  this.ingredients = ingredients;
+  this.name = name;
+  this.describe = function() {
+    console.log("Your " + this.name + " includes: " + this.ingredients.join(", ") + ". Yum!");
+  }
+}
+
+pbj.describe();
+
+var salad = {
+  ingredients: ["croutons", "romaine hearts", "steak", "parmesan", "caesar dressing"],
+  name: "Steak Caesar"
+}
+
+pbj.describe.call(salad); // this will work.
