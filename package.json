@@ -6,9 +6,10 @@
     "node": "6.x",
     "npm": "3.x"
   },
+
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha --timeout 5000 -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
